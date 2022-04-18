@@ -15,8 +15,8 @@ level = 1
 [output.html]
 additional-css = ["theme/style1.css"]
 additional-js = ["assets/custom3.js","assets/lang.js"]
-git-repository-url = "https://github.com/sunface/rust-by-practice"
-edit-url-template = "https://github.com/sunface/rust-by-practice/edit/master/en/{path}"
+git-repository-url = "https://github.com/linbird/rust-by-practice"
+edit-url-template = "https://github.com/linbird/rust-by-practice/edit/linbird-dev/en/{path}"
 
 [rust]
 edition = "2021"
