@@ -35,7 +35,7 @@ fn main() {
 ```
 
 2、 🌟 One of the easiest ways to create an iterator is to use the range notion: `a..b`.
-```rust,editble
+```rust,editable
 /* Fill in the blank */
 fn main() {
     let mut v = Vec::new();
@@ -209,7 +209,7 @@ The `Iterator` trait has a number of methods with default implementations provid
 Some of these methods call the method `next`to use up the iterator, so they are called *consuming adaptors*.
 
 8、🌟🌟
-```rust,edtiable
+```rust,editable
 /* Fill in the blank and fix the errors */
 fn main() {
     let v1 = vec![1, 2, 3];
@@ -266,7 +266,7 @@ fn main() {
 ```
 
 11、🌟🌟
-```rust,edtiable
+```rust,editable
 /* Fill in the blanks */
 use std::collections::HashMap;
 fn main() {
@@ -282,7 +282,7 @@ fn main() {
 #### Using closures in iterator adaptors
 
 12、🌟🌟 
-```rust,edtiable
+```rust,editable
 /* Fill in the blanks */
 #[derive(PartialEq, Debug)]
 struct Shoe {
